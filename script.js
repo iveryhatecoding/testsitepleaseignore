@@ -1,4 +1,4 @@
-fetch('https://<your-render-backend-url>/api/clients')
+fetch('https://testpleaseignore.onrender.com')
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById('clients');
