@@ -1,4 +1,4 @@
-fetch('https://testsitepleaseignore.onrender.com/api/clients')
+fetch('https://testsiteignore.onrender.com/api/clients')
   .then(async res => {
     if (!res.ok) {
       throw new Error(`Server error ${res.status}`);
